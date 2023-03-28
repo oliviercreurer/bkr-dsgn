@@ -13,6 +13,10 @@ body {
     color: #52525B;
 }
 
+.rule {
+    color: lightgrey;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -22,6 +26,23 @@ body {
     position: sticky;
     top: 0;
     background: white;
+}
+
+.menu-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-name {
+    color: #27272A;
+    font-weight: 600;
 }
 
 .content {
