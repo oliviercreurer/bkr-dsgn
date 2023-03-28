@@ -1,0 +1,99 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Lato';
+    line-height: 1.6em;
+    letter-spacing: 0.15px;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    color: #52525B;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E4E4E7;
+    padding: 24px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.content {
+    padding: 36px 24px;
+    font-size: 1rem;
+}
+
+.footer {
+    display: flex;
+    border-top: 1px solid #E4E4E7;
+    padding: 24px;
+    justify-content: space-between;   
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    background: white;
+    box-shadow: 0px -1px 8px rgba(18, 38, 82, 0.10);
+}
+
+.subtotal {
+    display: flex;
+    flex-direction: column;
+}
+
+.key {
+    color: grey;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+}
+
+button {
+    font-family: 'Lato';
+    font-size: 1rem;
+    height: 48px;
+    padding: 0px 16px;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 0.15px;
+    transition: 0.5;
+}
+
+button:hover {
+    background-color: #27272A;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-group {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-back {
+    background: #E4E4E7;
+    color: #71717A;
+}
+
+.btn-next {
+    background: #3770ED;
+    color: white;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-currency {
+    font-size: 0.7rem;
+    border: 1px solid #A1A1AA;
+    border-radius: 4px;
+    padding: 2px 4px;
+    height: 24px;
+}
